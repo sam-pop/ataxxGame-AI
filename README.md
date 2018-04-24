@@ -55,5 +55,5 @@ with 8 characters:
 
 It is not allowed to skip moves.
 
-<b>The program uses has a tree of a limited length, and a utility function to evaluate how good a board is at the leaf nodes.<br>
+<b>The program uses a tree of a limited length, and a utility function to evaluate how good a board is at the leaf nodes.<br>
 The best move is decided using the Minimax algorithm.</b>
