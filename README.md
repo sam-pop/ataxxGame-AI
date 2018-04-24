@@ -48,9 +48,7 @@ right. The output should look like this:
 2:0:0:0:0:0:1:
 
 Empty spaces are represented by ‘0’s. Black pieces are represented by ‘1’s, and white pieces are represented
-by ‘2’s. The move decision should also be printed using the (x-y) coordinate system shown in the board
-examples. For example, the move demonstrated above from 0,0 to 1,0 would be printed out as a single line
-with 8 characters:
+by ‘2’s. The move demonstrated above from 0,0 to 1,0 would be printed out as a single line with 8 characters: 
 0:0:1:0:
 
 It is not allowed to skip moves.
