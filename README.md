@@ -2,7 +2,10 @@
 <a href="https://en.wikipedia.org/wiki/Ataxx" target="_blank">Ataxx</a> game using the <a href="https://en.wikipedia.org/wiki/Minimax">Minimax</a> algorithm.
 
 
-# Ataxx
+# The Game
+<b>The program uses a tree of a limited length, and a utility function to evaluate how good a board is at the leaf nodes.<br>
+The best move is decided using the Minimax algorithm.</b>
+
 <b>Initial Board Setup -</b> The board is a seven-by-seven square grid. Each player – black and white – starts
 the game with 2 pieces. The black pieces occupy the top-left and bottom-right corners and the white ones
 occupy the top-right and bottom-left corners.
@@ -52,6 +55,3 @@ by ‘2’s. The move demonstrated above from 0,0 to 1,0 would be printed out as
 0:0:1:0:
 
 It is not allowed to skip moves.
-
-<b>The program uses a tree of a limited length, and a utility function to evaluate how good a board is at the leaf nodes.<br>
-The best move is decided using the Minimax algorithm.</b>
