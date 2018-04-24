@@ -7,12 +7,12 @@ Initial Board Setup - The board is a seven-by-seven square grid. Each player –
 the game with 2 pieces. The black pieces occupy the top-left and bottom-right corners and the white ones
 occupy the top-right and bottom-left corners.
 
-1:0:0:0:0:0:2:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
+1:0:0:0:0:0:2:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
 2:0:0:0:0:0:1:
 
 The rules of the game - Players alternate moves, with black is the first player. On each turn, a player
@@ -39,12 +39,12 @@ Given the current board, it should decide on its move. It should then print out 
 Suppose that at the start of the game the program decided to move the top-left black piece one step to the
 right. The output should look like this:
 
-1:1:0:0:0:0:2:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
-0:0:0:0:0:0:0:
+1:1:0:0:0:0:2:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
+0:0:0:0:0:0:0:<br>
 2:0:0:0:0:0:1:
 
 Empty spaces are represented by ‘0’s. Black pieces are represented by ‘1’s, and white pieces are represented
@@ -55,6 +55,6 @@ with 8 characters:
 
 It is not allowed to skip moves.
 
-We will not be able to consider a full game tree. Instead, we have build a game tree of a limited length, and decided
+We will not be able to consider a full game tree at this point. Instead, we have built a game tree of a limited length, and decided
 on a utility function to evaluate how good a board is at the leaf nodes. The best move is decided
 using the Minimax algorithm.
