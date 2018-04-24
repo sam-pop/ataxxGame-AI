@@ -1,4 +1,4 @@
-# ataxxGame_MachineLearning
+# ataxxGame_AI
 <a href="https://en.wikipedia.org/wiki/Ataxx" target="_blank">Ataxx</a> game using the Minimax algorithm.
 
 
