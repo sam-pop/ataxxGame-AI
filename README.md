@@ -2,7 +2,7 @@
 <a href="https://en.wikipedia.org/wiki/Ataxx" target="_blank">Ataxx</a> game using the Minimax algorithm.
 
 
-# the game:
+# Ataxx
 <b>Initial Board Setup -</b> The board is a seven-by-seven square grid. Each player – black and white – starts
 the game with 2 pieces. The black pieces occupy the top-left and bottom-right corners and the white ones
 occupy the top-right and bottom-left corners.
